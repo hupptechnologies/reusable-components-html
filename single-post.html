@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Single Post</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+
+	<body>
+		<!-- header -->
+		<header-component></header-component>
+		<main class="single_post_page">
+			<section class="single_post">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="text-center">
+								<img src="assets/images/person.jpeg" alt="user image" class="img-fluid author_pic" />
+							</div>
+							<span class="d-block text-center">Thomas Wehner</span>
+							<span class="date d-block text-center small text-uppercase text-black-50 mb-5">Jan 25,
+								2023</span>
+							<h2 class="heading text-center">
+								Your most unhappy customers are your greatest source of
+								learning.
+							</h2>
+							<p class="lead mb-4 text-center">
+								Far far away, behind the word mountains, far from the countries
+								Vokalia and Consonantia, there live the blind texts.
+							</p>
+							<img src="assets/images/blog-3.jpeg" alt="Image" class="img-fluid rounded mb-4" />
+							<p>
+								Far far away, behind the word mountains, far from the countries
+								Vokalia and Consonantia, there live the blind texts. Separated
+								they live in Bookmarksgrove right at the coast of the Semantics,
+								a large language ocean.
+							</p>
+							<p>
+								A small river named Duden flows by their place and supplies it
+								with the necessary regelialia. It is a paradisematic country, in
+								which roasted parts of sentences fly into your mouth.
+							</p>
+							<blockquote>
+								<p>
+									The Big Oxmox advised her not to do so, because there were
+									thousands of bad Commas, wild Question Marks and devious
+									Semikoli, but the Little Blind Text didn’t listen. She packed
+									her seven versalia, put her initial into the belt and made
+									herself on the way.
+								</p>
+							</blockquote>
+							<p>
+								Even the all-powerful Pointing has no control about the blind
+								texts it is an almost unorthographic life One day however a
+								small line of blind text by the name of Lorem Ipsum decided to
+								leave for the far World of Grammar.
+							</p>
+							<p>
+								When she reached the first hills of the Italic Mountains, she
+								had a last view back on the skyline of her hometown
+								Bookmarksgrove, the headline of Alphabet Village and the subline
+								of her own road, the Line Lane. Pityful a rethoric question ran
+								over her cheek, then she continued her way.
+							</p>
+							<div class="row g-1 my-5">
+								<div class="col-lg-4">
+									<a href="assets/images/blog-1.jpeg" class="glightbox"><img src="assets/images/blog-1.jpeg" alt="Image"
+											class="img-fluid rounded" /></a>
+								</div>
+								<div class="col-lg-4">
+									<a href="assets/images/blog-3.jpeg" class="glightbox"><img src="assets/images/blog-3.jpeg" alt="Image"
+											class="img-fluid rounded" /></a>
+								</div>
+								<div class="col-lg-4">
+									<a href="assets/images/blog-2.jpeg" class="glightbox"><img src="assets/images/blog-2.jpeg" alt="Image"
+											class="img-fluid rounded" /></a>
+								</div>
+								<div class="col-lg-4">
+									<a href="assets/images/blog-2.jpeg" class="glightbox"><img src="assets/images/blog-2.jpeg" alt="Image"
+											class="img-fluid rounded" /></a>
+								</div>
+								<div class="col-lg-4">
+									<a href="assets/images/blog-3.jpeg" class="glightbox"><img src="assets/images/blog-3.jpeg" alt="Image"
+											class="img-fluid rounded" /></a>
+								</div>
+								<div class="col-lg-4">
+									<a href="assets/images/blog-1.jpeg" class="glightbox"><img src="assets/images/blog-1.jpeg" alt="Image"
+											class="img-fluid rounded" /></a>
+								</div>
+							</div>
+							<p>
+								Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+								there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+								Semantics, a large language ocean.</p>
+							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
+								It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+							</p>
+							<div class="row mt-5 pt-5 border-top">
+								<div class="col-12">
+									<span class="fw-bold text-black small mb-1">Share</span>
+									<ul class="social list-unstyled">
+										<li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+										<li><a href="#"><span class="fab fa-twitter"></span></a></li>
+										<li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+										<li><a href="#"><span class="fab fa-youtube"></span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="related_post_section">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<blog-card
+								className="related_posts"
+								image="assets/images/blog-1.jpeg"
+								title="Your most unhappy customers are your greatest source of learning."
+								date="Jan 25, 2023"
+								description="Far far away, behind the word mountains, far from the
+								countries Vokalia and Consonantia, there live the blind texts.
+								Separated they live in Bookmarksgrove right at the coast of
+								the Semantics, a large language ocean."
+								category="Business, Travel"
+								authorImage="assets/images/person.jpeg"
+								authorName="Thomas Wehner"
+								authorDesignation="CEO and Founder"
+							></blog-card>
+						</div>
+						<div class="col-lg-12">
+							<blog-card
+								className="related_posts"
+								image="assets/images/blog-2.jpeg"
+								title="Your most unhappy customers are your greatest source of learning."
+								date="Jan 25, 2023"
+								description="Far far away, behind the word mountains, far from the
+								countries Vokalia and Consonantia, there live the blind texts.
+								Separated they live in Bookmarksgrove right at the coast of
+								the Semantics, a large language ocean."
+								category="Business, Travel"
+								authorImage="assets/images/person.jpeg"
+								authorName="Thomas Wehner"
+								authorDesignation="CEO and Founder"
+							></blog-card>
+						</div>
+						<div class="col-lg-12">
+							<blog-card
+								className="related_posts"
+								image="assets/images/blog-3.jpeg"
+								title="Your most unhappy customers are your greatest source of learning."
+								date="Jan 25, 2023"
+								description="Far far away, behind the word mountains, far from the
+								countries Vokalia and Consonantia, there live the blind texts.
+								Separated they live in Bookmarksgrove right at the coast of
+								the Semantics, a large language ocean."
+								category="Business, Travel"
+								authorImage="assets/images/person.jpeg"
+								authorName="Thomas Wehner"
+								authorDesignation="CEO and Founder"
+							></blog-card>
+						</div>
+						<div class="col-lg-12">
+							<blog-card
+								className="related_posts"
+								image="assets/images/blog-1.jpeg"
+								title="Your most unhappy customers are your greatest source of learning."
+								date="Jan 25, 2023"
+								description="Far far away, behind the word mountains, far from the
+								countries Vokalia and Consonantia, there live the blind texts.
+								Separated they live in Bookmarksgrove right at the coast of
+								the Semantics, a large language ocean."
+								category="Business, Travel"
+								authorImage="assets/images/person.jpeg"
+								authorName="Thomas Wehner"
+								authorDesignation="CEO and Founder"
+							></blog-card>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer-component></footer-component>
+		<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+		<script src="assets/js/components/blog-card.js" ></script>
+		<script src="assets/js/components/header.js" ></script>
+		<script src="assets/js/components/footer.js" ></script>
+	</body>
+
+</html>
